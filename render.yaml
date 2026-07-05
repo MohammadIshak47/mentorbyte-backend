@@ -28,11 +28,11 @@ services:
       - key: DB_SSL_REQUIRE
         value: "True"
       - key: CORS_ALLOWED_ORIGINS
-        value: "https://your-site.netlify.app"
+        value: "https://mentorybyte-online-education-platform.netlify.app"
       - key: CSRF_TRUSTED_ORIGINS
-        value: "https://your-site.netlify.app"
+        value: "https://mentorybyte-online-education-platform.netlify.app"
       - key: FRONTEND_URL
-        value: "https://your-site.netlify.app"
+        value: "https://mentorybyte-online-education-platform.netlify.app"
       - key: SECURE_SSL_REDIRECT
         value: "True"
 
